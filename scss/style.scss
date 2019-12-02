@@ -1,0 +1,23 @@
+@import"./_about.scss";
+@import"./_header.scss";
+
+$colors:(
+    main: #3e93a8
+);
+@function color($colors-name){
+    @return map-get($colors, $colors-name )
+}
+
+$padding: 1.5rem;
+body{
+    background-color: color(main);
+}
+.text{
+    display: flex;
+    height: 300rem;
+}
+#intro{
+    width: 100rem;
+    height: 100rem;
+    justify-content: center;
+}
