@@ -1,26 +1,23 @@
 @import"./_about.scss";
 @import"./_header.scss";
+@import"./.variable";
 
-$colors:(
-    main: #3e93a8,
-    second: #c94545,
-);
-
-@function color($colors-name){
-    @return map-get($colors, $colors-name)
+html{
+    font-size: 62.5%;
+    padding: 1rem;
+    margin: 1rem;
+    box-sizing: border-box;
 }
 
-$padding: .5rem;
+$padding: 0.5rem;
 
 .menu{
-    margin: 0rem;
+    font-family: 'Fira Sans Condensed', sans-serif;
     background: color(main);
     display:flex;
-    justify-content: flex-end;
-    display: block
-    color: color(second);
-}
-
-.menu{
-    text-decoration: ;
+    font-size: 3rem;
+    list-style: none;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-decoration: none;
 }

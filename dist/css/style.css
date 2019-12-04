@@ -1,16 +1,23 @@
+html {
+  font-size: 62.5%;
+  padding: 1rem;
+  margin: 1rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 .menu {
-  margin: 0rem;
+  font-family: 'Fira Sans Condensed', sans-serif;
   background: #3e93a8;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  display: block;
-}
-
-.menu {
-  color: #c94545;
+  font-size: 3rem;
+  list-style: none;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  text-decoration: none;
 }
 /*# sourceMappingURL=style.css.map */
