@@ -1,19 +1,16 @@
-body {
-  background-color: #3e93a8;
-}
-
-.text {
+.menu {
+  margin: 0rem;
+  background: #3e93a8;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 300rem;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  display: block;
 }
 
-#intro {
-  width: 100rem;
-  height: 100rem;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+.menu {
+  color: #c94545;
 }
 /*# sourceMappingURL=style.css.map */

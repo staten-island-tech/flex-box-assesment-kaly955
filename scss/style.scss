@@ -2,22 +2,25 @@
 @import"./_header.scss";
 
 $colors:(
-    main: #3e93a8
+    main: #3e93a8,
+    second: #c94545,
 );
+
 @function color($colors-name){
-    @return map-get($colors, $colors-name )
+    @return map-get($colors, $colors-name)
 }
 
-$padding: 1.5rem;
-body{
-    background-color: color(main);
+$padding: .5rem;
+
+.menu{
+    margin: 0rem;
+    background: color(main);
+    display:flex;
+    justify-content: flex-end;
+    display: block
+    color: color(second);
 }
-.text{
-    display: flex;
-    height: 300rem;
-}
-#intro{
-    width: 100rem;
-    height: 100rem;
-    justify-content: center;
+
+.menu{
+    text-decoration: ;
 }
