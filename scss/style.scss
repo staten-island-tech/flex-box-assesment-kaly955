@@ -8,16 +8,39 @@ html{
     margin: 1rem;
     box-sizing: border-box;
 }
-
-$padding: 0.5rem;
-
+.loading{
+    width: 10rem;
+    height: 10rem;
+    background: color(first);
+    position: relative;
+}
 .menu{
-    font-family: 'Fira Sans Condensed', sans-serif;
-    background: color(main);
-    display:flex;
-    font-size: 3rem;
-    list-style: none;
-    flex-wrap: wrap;
+    display: flex;
     justify-content: space-around;
-    text-decoration: none;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-size: 4rem;
+}
+.home{
+    background-color: color(first);
+}
+.home:hover{
+    background-color: color(blue2);
+}
+.shows{
+    background-color: color(second);
+}
+.shows:hover{
+    background-color: color(pink2);
+}
+.aboutus{
+    background-color: color(first);
+}
+.aboutus:hover{
+    background-color: color(blue2);
+}
+.contactus{
+    background-color: color(second);
+}
+.contactus:hover{
+    background-color: color(pink2);
 }
