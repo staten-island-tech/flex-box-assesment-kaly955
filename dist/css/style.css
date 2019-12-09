@@ -18,40 +18,41 @@ html {
 }
 
 .home {
-  background-color: #90a4ff;
+  background-color: #00AEC7;
 }
 
 .home:hover {
-  background-color: #90a4ff8c;
+  background-color: rgba(0, 172, 199, 0.479);
 }
 
 .shows {
-  background-color: #ffc7c7;
+  background-color: #98FB86;
 }
 
 .shows:hover {
-  background-color: #ffc7c7c5;
+  background-color: rgba(152, 251, 134, 0.664);
 }
 
 .aboutus {
-  background-color: #90a4ff;
+  background-color: #00AEC7;
 }
 
 .aboutus:hover {
-  background-color: #90a4ff8c;
+  background-color: rgba(0, 172, 199, 0.479);
 }
 
 .contactus {
-  background-color: #ffc7c7;
+  background-color: #98FB86;
 }
 
 .contactus:hover {
-  background-color: #ffc7c7c5;
+  background-color: rgba(152, 251, 134, 0.664);
 }
 
 .images {
   position: absolute;
   left: 65em;
   top: 10rem;
+  size: 30%;
 }
 /*# sourceMappingURL=style.css.map */
