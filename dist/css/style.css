@@ -55,4 +55,52 @@ html {
   top: 10rem;
   size: 30%;
 }
+
+.logo {
+  -webkit-animation-name: logo;
+          animation-name: logo;
+  -webkit-animation-duration: 15s;
+          animation-duration: 15s;
+  position: relative;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes logo {
+  0% {
+    left: 0rem;
+    top: 0rem;
+  }
+  25% {
+    left: 40rem;
+    top: 0rem;
+  }
+  50% {
+    left: -40rem;
+    top: 0rem;
+  }
+  75% {
+    left: 2rem;
+    top: 0rem;
+  }
+}
+
+@keyframes logo {
+  0% {
+    left: 0rem;
+    top: 0rem;
+  }
+  25% {
+    left: 40rem;
+    top: 0rem;
+  }
+  50% {
+    left: -40rem;
+    top: 0rem;
+  }
+  75% {
+    left: 2rem;
+    top: 0rem;
+  }
+}
 /*# sourceMappingURL=style.css.map */
