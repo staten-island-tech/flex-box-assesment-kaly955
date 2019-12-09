@@ -7,13 +7,9 @@ html{
     padding: 1rem;
     margin: 1rem;
     box-sizing: border-box;
+    background-color: color(main);
 }
-.loading{
-    width: 10rem;
-    height: 10rem;
-    background: color(first);
-    position: relative;
-}
+
 .menu{
     display: flex;
     justify-content: space-around;
@@ -43,4 +39,9 @@ html{
 }
 .contactus:hover{
     background-color: color(pink2);
+}
+.images{
+    position: absolute;
+    left: 65em;
+    top: 10rem;
 }

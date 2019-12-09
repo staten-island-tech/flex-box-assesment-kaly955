@@ -4,13 +4,7 @@ html {
   margin: 1rem;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-}
-
-.loading {
-  width: 10rem;
-  height: 10rem;
-  background: #90a4ff;
-  position: relative;
+  background-color: #6cd3a3a9;
 }
 
 .menu {
@@ -53,5 +47,11 @@ html {
 
 .contactus:hover {
   background-color: #ffc7c7c5;
+}
+
+.images {
+  position: absolute;
+  left: 65em;
+  top: 10rem;
 }
 /*# sourceMappingURL=style.css.map */
