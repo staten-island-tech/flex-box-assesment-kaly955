@@ -51,6 +51,7 @@ html{
     animation-duration: 15s;
     position: relative;
     animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
 @keyframes logo{
     0% {left: 0rem; top: 0rem;}
