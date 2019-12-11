@@ -15,6 +15,8 @@ html {
       justify-content: space-around;
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 4rem;
+  width: 100%;
+  height: auto;
 }
 
 .home {
@@ -54,6 +56,8 @@ html {
   left: 65em;
   top: 10rem;
   size: 30%;
+  width: 100%;
+  height: auto;
 }
 
 .logo {
