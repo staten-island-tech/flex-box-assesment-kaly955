@@ -109,5 +109,6 @@ html {
 .gun {
   -webkit-transform: rotate(20deg);
           transform: rotate(20deg);
+  cursor: pointer;
 }
 /*# sourceMappingURL=style.css.map */
