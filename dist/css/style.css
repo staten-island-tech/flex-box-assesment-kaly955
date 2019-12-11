@@ -105,4 +105,9 @@ html {
     top: 0rem;
   }
 }
+
+.gun {
+  -webkit-transform: rotate(20deg);
+          transform: rotate(20deg);
+}
 /*# sourceMappingURL=style.css.map */
