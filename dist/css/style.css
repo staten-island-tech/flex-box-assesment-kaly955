@@ -5,7 +5,6 @@ html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   background-color: #6cd3a3a9;
-  outline: none;
 }
 
 .menu {
@@ -16,6 +15,7 @@ html {
       justify-content: space-around;
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 4rem;
+  margin-top: 3rem;
 }
 
 .home {
@@ -56,6 +56,7 @@ html {
 
 .logo {
   display: block;
+  position: relative;
   -webkit-animation-name: logo;
           animation-name: logo;
   -webkit-animation-duration: 15s;
@@ -66,7 +67,9 @@ html {
           animation-timing-function: linear;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 5rem;
+  margin-top: 3rem;
+  -webkit-animation-delay: .1s;
+          animation-delay: .1s;
 }
 
 .gun {
@@ -81,15 +84,15 @@ html {
     top: 0rem;
   }
   25% {
-    left: 40rem;
+    left: 30%;
     top: 0rem;
   }
   50% {
-    left: 40rem;
+    left: -30%;
     top: 0rem;
   }
   75% {
-    left: 10rem;
+    left: 0%;
     top: 0rem;
   }
 }
@@ -100,28 +103,25 @@ html {
     top: 0rem;
   }
   25% {
-    left: 40rem;
+    left: 30%;
     top: 0rem;
   }
   50% {
-    left: 40rem;
+    left: -30%;
     top: 0rem;
   }
   75% {
-    left: 10rem;
+    left: 0%;
     top: 0rem;
   }
 }
 
-.button, .button:visited, .button:active {
-  -webkit-transform: rotate(15deg);
-          transform: rotate(15deg);
-  background-color: transparent;
-  margin: 0 auto;
-  padding: 0rem;
-  border: none;
+.btn {
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  -webkit-transform: rotate(25deg);
+          transform: rotate(25deg);
   cursor: pointer;
-  display: block;
-  margin-top: 2rem;
 }
 /*# sourceMappingURL=style.css.map */

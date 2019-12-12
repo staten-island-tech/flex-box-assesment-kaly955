@@ -8,7 +8,6 @@ html{
     margin: 0;
     box-sizing: border-box;
     background-color: color(main);
-    outline: none;
 }
 
 .menu{
@@ -16,6 +15,7 @@ html{
     justify-content: space-around;
     font-family: 'Fira Sans Condensed', sans-serif;
     font-size: 4rem;
+    margin-top: 3rem;
 }
 .home{
     background-color: color(first);
@@ -46,13 +46,15 @@ html{
 }
 .logo{
     display: block;
+    position: relative;
     animation-name: logo;
     animation-duration: 15s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 5rem;
+    margin-top: 3rem;
+    animation-delay: .1s;
 }
 .gun{
     margin: 5rem;
@@ -60,18 +62,14 @@ html{
 }
 @keyframes logo{
     0% {left: 0rem; top: 0rem;}
-    25% {left: 40rem; top: 0rem;}
-    50%{left: 40rem; top: 0rem;}
-    75%{left: 10rem; top: 0rem;}
+    25% {left: 30%; top: 0rem;}
+    50%{left: -30%; top: 0rem;}
+    75%{left: 0%; top: 0rem;}
 }
-.button, .button:visited, .button:active{
-    transform: rotate(15deg);
-    background-color: transparent;
-    margin: 0 auto;
-    padding: 0rem;
-    border: none;
+.btn{
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    transform: rotate(25deg);
     cursor: pointer;
-    display: block;
-    margin-top: 2rem;
-    
 }
