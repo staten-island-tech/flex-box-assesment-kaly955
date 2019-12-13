@@ -80,7 +80,7 @@ html {
 
 @-webkit-keyframes logo {
   0% {
-    left: 0rem;
+    left: 0%;
     top: 0rem;
   }
   25% {
@@ -92,14 +92,14 @@ html {
     top: 0rem;
   }
   75% {
-    left: 0%;
+    left: 2%;
     top: 0rem;
   }
 }
 
 @keyframes logo {
   0% {
-    left: 0rem;
+    left: 0%;
     top: 0rem;
   }
   25% {
@@ -111,17 +111,47 @@ html {
     top: 0rem;
   }
   75% {
-    left: 0%;
+    left: 2%;
     top: 0rem;
   }
 }
 
 .btn {
   position: absolute;
-  top: 40%;
-  left: 30%;
-  -webkit-transform: rotate(25deg);
-          transform: rotate(25deg);
+  top: 45%;
+  left: 15%;
+  -webkit-transform: rotate(35deg);
+          transform: rotate(35deg);
   cursor: pointer;
+}
+
+#pop {
+  position: relative;
+  top: 30%;
+  right: -55%;
+  -webkit-animation-name: fade;
+          animation-name: fade;
+  -webkit-animation-duration: 16s;
+          animation-duration: 16s;
+  -webkit-filter: drop-shadow(30px 10px 4px #65a557);
+          filter: drop-shadow(30px 10px 4px #65a557);
+}
+
+@-webkit-keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+  }
 }
 /*# sourceMappingURL=style.css.map */
