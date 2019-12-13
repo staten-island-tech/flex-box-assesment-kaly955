@@ -61,10 +61,8 @@ html{
     transform: rotate(15deg);
 }
 @keyframes logo{
-    0% {left: 0rem; top: 0rem;}
     25% {left: 30%; top: 0rem;}
     50%{left: -30%; top: 0rem;}
-    75%{left: 0%; top: 0rem;}
 }
 .btn{
     position: absolute;
