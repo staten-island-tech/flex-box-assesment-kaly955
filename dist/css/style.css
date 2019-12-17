@@ -1,7 +1,7 @@
 html {
   font-size: 62.5%;
-  padding: 1rem;
-  margin: 1rem;
+  padding: 0;
+  margin: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   background-color: #6cd3a3a9;
@@ -15,8 +15,7 @@ html {
       justify-content: space-around;
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 4rem;
-  width: 100%;
-  height: auto;
+  margin-top: 3rem;
 }
 
 .home {
@@ -52,62 +51,121 @@ html {
 }
 
 .images {
+<<<<<<< HEAD
   position: absolute;
   left: 65em;
   top: 10rem;
   size: 30%;
+=======
+  margin: 0 auto;
+>>>>>>> 35eb7547b19e350fd0b400d5670600f0634e6ed8
 }
 
 .logo {
+  display: block;
+  position: relative;
   -webkit-animation-name: logo;
           animation-name: logo;
   -webkit-animation-duration: 15s;
           animation-duration: 15s;
-  position: relative;
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
   -webkit-animation-timing-function: linear;
           animation-timing-function: linear;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3rem;
+  -webkit-animation-delay: .1s;
+          animation-delay: .1s;
+}
+
+.gun {
+  margin: 5rem;
+  -webkit-transform: rotate(15deg);
+          transform: rotate(15deg);
 }
 
 @-webkit-keyframes logo {
   0% {
-    left: 0rem;
+    left: 0%;
     top: 0rem;
   }
   25% {
-    left: 40rem;
+    left: 30%;
     top: 0rem;
   }
   50% {
-    left: -40rem;
+    left: -30%;
     top: 0rem;
   }
   75% {
-    left: 2rem;
+    left: 2%;
     top: 0rem;
   }
 }
 
 @keyframes logo {
   0% {
-    left: 0rem;
+    left: 0%;
     top: 0rem;
   }
   25% {
-    left: 40rem;
+    left: 30%;
     top: 0rem;
   }
   50% {
-    left: -40rem;
+    left: -30%;
     top: 0rem;
   }
   75% {
-    left: 2rem;
+    left: 2%;
     top: 0rem;
   }
 }
+<<<<<<< HEAD
 /*# sourceMappingURL=style.css.map */
 .gun{
   transform: rotate(20deg);
 }
+=======
+
+.btn {
+  position: absolute;
+  top: 45%;
+  left: 15%;
+  -webkit-transform: rotate(35deg);
+          transform: rotate(35deg);
+  cursor: pointer;
+}
+
+#pop {
+  position: relative;
+  top: 30%;
+  right: -55%;
+  -webkit-animation-name: fade;
+          animation-name: fade;
+  -webkit-animation-duration: 16s;
+          animation-duration: 16s;
+  -webkit-filter: drop-shadow(30px 10px 4px #65a557);
+          filter: drop-shadow(30px 10px 4px #65a557);
+}
+
+@-webkit-keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+  }
+}
+/*# sourceMappingURL=style.css.map */
+>>>>>>> 35eb7547b19e350fd0b400d5670600f0634e6ed8
