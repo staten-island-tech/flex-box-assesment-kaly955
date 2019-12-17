@@ -56,8 +56,6 @@ html {
   left: 65em;
   top: 10rem;
   size: 30%;
-  width: 100%;
-  height: auto;
 }
 
 .logo {
@@ -110,3 +108,6 @@ html {
   }
 }
 /*# sourceMappingURL=style.css.map */
+.gun{
+  transform: rotate(20deg);
+}
