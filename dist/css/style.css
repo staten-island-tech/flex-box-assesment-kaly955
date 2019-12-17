@@ -171,5 +171,7 @@ html {
   justify-content: space-around; 
 }
 h1{
-  font-size: 62.5%;
+  font-size: 10rem;
+  text-align: center;
+  font-family: 'Viga', sans-serif;
 }
