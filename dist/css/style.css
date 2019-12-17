@@ -51,14 +51,7 @@ html {
 }
 
 .images {
-<<<<<<< HEAD
-  position: absolute;
-  left: 65em;
-  top: 10rem;
-  size: 30%;
-=======
   margin: 0 auto;
->>>>>>> 35eb7547b19e350fd0b400d5670600f0634e6ed8
 }
 
 .logo {
@@ -122,12 +115,6 @@ html {
     top: 0rem;
   }
 }
-<<<<<<< HEAD
-/*# sourceMappingURL=style.css.map */
-.gun{
-  transform: rotate(20deg);
-}
-=======
 
 .btn {
   position: absolute;
@@ -168,4 +155,3 @@ html {
   }
 }
 /*# sourceMappingURL=style.css.map */
->>>>>>> 35eb7547b19e350fd0b400d5670600f0634e6ed8
