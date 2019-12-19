@@ -73,13 +73,32 @@ html{
     transform: rotate(35deg);
     cursor: pointer;
 }
+@keyframes fade{
+    0%{
+        opacity: 0;
+    }
+    25%{
+        opacity: 1;
+    }
+}
 #pop{
     position: relative;
     top: 30%;
     right: -55%;
+    animation-name: fade;
+    animation-duration: 16s;
 }
  h1{
+     margin-top: 5rem;
     font-size: 5rem;
     text-align: center;
     font-family: 'Viga', sans-serif;
  }
+.images{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-around;
+}
+.text{
+    
+}
