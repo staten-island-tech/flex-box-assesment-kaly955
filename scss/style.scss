@@ -77,19 +77,7 @@ html{
     position: relative;
     top: 30%;
     right: -55%;
-    animation-name: fade;
-    animation-duration: 16s;
-    filter: drop-shadow(30px 10px 4px #65a557);
 }
-@keyframes fade {
-    0% {opacity: 0;}
-    25% {opacity: 1;}
- } 
- .images{
-     margin: 3rem;
-     display: flex;
-     justify-content: space-evenly;
- }
  h1{
     font-size: 5rem;
     text-align: center;
