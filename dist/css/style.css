@@ -176,12 +176,21 @@ h1 {
   background-color: cornflowerblue;
   justify-content: center;
   justify-content: space-between;
-  
+  flex: 1;
 }
 .child-container{
   display: flex;
   width: 20rem;
+  background-color: white;
 }
-.child-child-container{
+.child-two{
   display: flex;
+  width: 80rem;
+  background-color: tomato;
+}
+#child{
+  display: flex;
+  background-color: violet;
+  width: 10rem;
+  justify-content: space-evenly;
 }
