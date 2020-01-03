@@ -214,10 +214,9 @@ width: 20rem;
   background-color: green;
   height: 10rem;
   width: 20rem;
-  }
-  #three{
+}#three{
     display: flex;
     background-color: blue;
     height: 10rem;
     width: 20rem;
-    }
+}
