@@ -180,7 +180,7 @@ h1 {
 }
 .child-container{
   display: flex;
-  width: 20rem;
+  width: 40rem;
   background-color: white;
 }
 .child-two{
@@ -192,5 +192,9 @@ h1 {
   display: flex;
   background-color: violet;
   width: 10rem;
-  justify-content: space-evenly;
+  align-self: center;
+}
+#child-double{
+  display: flex;
+  background-color: yellow;
 }
