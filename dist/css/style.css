@@ -168,4 +168,19 @@ h1 {
   -ms-flex-pack: distribute;
       justify-content: space-around;
 }
-/*# sourceMappingURL=style.css.map */
+
+.container{
+  margin-top: 10rem;
+  display: flex;
+  height: 30rem;
+  background-color: cornflowerblue;
+  justify-content: center;
+  justify-content: space-between;
+  
+}
+.child-container{
+  display: flex;
+}
+.child-child-container{
+  display: flex;
+}
