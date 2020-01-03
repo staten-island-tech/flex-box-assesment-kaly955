@@ -200,4 +200,24 @@ h1 {
   display: flex;
   background-color: yellow;
   height: 50rem;
+  justify-content: space-around;
+  align-items: center;
 }
+#one{
+display: flex;
+background-color: violet;
+height: 10rem;
+width: 20rem;
+}
+#two{
+  display: flex;
+  background-color: green;
+  height: 10rem;
+  width: 20rem;
+  }
+  #three{
+    display: flex;
+    background-color: blue;
+    height: 10rem;
+    width: 20rem;
+    }
