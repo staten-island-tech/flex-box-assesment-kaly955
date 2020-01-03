@@ -187,6 +187,7 @@ h1 {
   display: flex;
   width: 80rem;
   background-color: tomato;
+  flex-direction: column;
 }
 #child{
   display: flex;
@@ -195,6 +196,8 @@ h1 {
   align-self: center;
 }
 #child-double{
+  margin-top: 10rem ;
   display: flex;
   background-color: yellow;
+  height: 50rem;
 }
